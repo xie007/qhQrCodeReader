@@ -2,6 +2,8 @@
 
 在使用 [php-qrcode-detector-decoder](https://github.com/khanamiryan/php-qrcode-detector-decoder) 解析二维码时，发现成功率不是特别高，于是基于我的一些实践，写了这个小工具，很大地提高了识别的成功率。如果你有一些优化的建议，欢迎提交。
 
+PS:需要设置目录可读写权限，url方式是先下载网络图片到本地，然后再进行解析二维码操作，可读写文件“MGQrCodeReader.php”，且目录也是可读写。
+
 ## 环境
 1. PHP >= 5.4
 2. GD Library
